@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body{
+background: url("../images/christmas.jpg");
+min-height: 100vh;
+background-size: 100vw 100vh;
+background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+font-size: 3rem;
+font-weight: normal;
+color: rgb(160, 9, 9);
+margin-top: 4rem;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.text{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 2rem 2rem;
+
+}
+.countdown-el{
+    text-align: center;
+    margin: 1.5rem 3rem;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(160, 9, 9);
+}
